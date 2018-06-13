@@ -144,9 +144,13 @@
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="scripts\CommonScripts.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Content\GridPanelUtility.cs" />
+    <Compile Include="Content\PanelFieldUtility.cs" />
+    <Compile Include="Content\WindowUtility.cs" />
     <Compile Include="Demo.aspx.cs">
       <DependentUpon>Demo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
